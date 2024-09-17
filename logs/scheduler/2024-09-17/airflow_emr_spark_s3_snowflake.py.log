@@ -1,0 +1,232 @@
+[2024-09-17T00:44:03.757+0000] {processor.py:186} INFO - Started process (PID=11288) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T00:44:03.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T00:44:03.761+0000] {logging_mixin.py:190} INFO - [2024-09-17T00:44:03.761+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T00:44:04.430+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T00:44:04.434+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T00:44:04.498+0000] {logging_mixin.py:190} INFO - [2024-09-17T00:44:04.498+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T00:44:04.506+0000] {logging_mixin.py:190} INFO - [2024-09-17T00:44:04.506+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T00:44:04.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.766 seconds
+[2024-09-17T01:53:13.408+0000] {processor.py:186} INFO - Started process (PID=11300) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T01:53:13.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T01:53:13.412+0000] {logging_mixin.py:190} INFO - [2024-09-17T01:53:13.411+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T01:53:13.964+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T01:53:13.967+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T01:53:13.980+0000] {logging_mixin.py:190} INFO - [2024-09-17T01:53:13.980+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T01:53:13.986+0000] {logging_mixin.py:190} INFO - [2024-09-17T01:53:13.986+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T01:53:13.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.593 seconds
+[2024-09-17T02:46:39.317+0000] {processor.py:186} INFO - Started process (PID=11312) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:46:39.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:46:39.323+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:46:39.322+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:46:40.233+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:46:40.237+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:46:40.248+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:46:40.248+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:46:40.258+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:46:40.258+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:46:40.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.956 seconds
+[2024-09-17T02:47:10.650+0000] {processor.py:186} INFO - Started process (PID=11324) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:47:10.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:47:10.654+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:47:10.653+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:47:11.145+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:47:11.148+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:47:11.158+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:47:11.158+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:47:11.168+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:47:11.168+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:47:11.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.533 seconds
+[2024-09-17T02:47:41.550+0000] {processor.py:186} INFO - Started process (PID=11336) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:47:41.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:47:41.555+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:47:41.555+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:47:42.094+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:47:42.097+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:47:42.108+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:47:42.108+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:47:42.116+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:47:42.116+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:47:42.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.581 seconds
+[2024-09-17T02:48:12.375+0000] {processor.py:186} INFO - Started process (PID=11348) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:48:12.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:48:12.379+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:48:12.379+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:48:13.016+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:48:13.019+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:48:13.034+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:48:13.034+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:48:13.045+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:48:13.045+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:48:13.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.694 seconds
+[2024-09-17T02:48:43.544+0000] {processor.py:186} INFO - Started process (PID=11360) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:48:43.546+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:48:43.549+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:48:43.549+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:48:44.468+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:48:44.472+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:48:44.485+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:48:44.485+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:48:44.500+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:48:44.500+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:48:44.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.973 seconds
+[2024-09-17T02:49:14.972+0000] {processor.py:186} INFO - Started process (PID=11372) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:49:14.973+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:49:14.976+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:49:14.976+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:49:15.559+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:49:15.562+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:49:15.575+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:49:15.575+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:49:15.582+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:49:15.582+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:49:15.591+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.628 seconds
+[2024-09-17T02:49:45.894+0000] {processor.py:186} INFO - Started process (PID=11384) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:49:45.896+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:49:45.899+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:49:45.898+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:49:46.679+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:49:46.683+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:49:46.695+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:49:46.695+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:49:46.705+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:49:46.705+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:49:46.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.830 seconds
+[2024-09-17T02:50:17.103+0000] {processor.py:186} INFO - Started process (PID=11395) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:50:17.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:50:17.108+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:50:17.108+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:50:17.874+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:50:17.877+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:50:17.888+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:50:17.887+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:50:17.899+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:50:17.899+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:50:17.912+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.817 seconds
+[2024-09-17T02:50:48.333+0000] {processor.py:186} INFO - Started process (PID=11412) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:50:48.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:50:48.338+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:50:48.337+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:50:49.097+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:50:49.102+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:50:49.119+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:50:49.119+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:50:49.131+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:50:49.131+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:50:49.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.817 seconds
+[2024-09-17T02:51:19.508+0000] {processor.py:186} INFO - Started process (PID=11424) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:51:19.509+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:51:19.513+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:51:19.512+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:51:20.253+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:51:20.257+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:51:20.269+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:51:20.269+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:51:20.279+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:51:20.278+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:51:20.289+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.788 seconds
+[2024-09-17T02:51:50.793+0000] {processor.py:186} INFO - Started process (PID=11436) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:51:50.795+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:51:50.802+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:51:50.801+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:51:52.001+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:51:52.004+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:51:52.016+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:51:52.015+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:51:52.028+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:51:52.028+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:51:52.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 1.274 seconds
+[2024-09-17T02:52:22.121+0000] {processor.py:186} INFO - Started process (PID=11447) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:52:22.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:52:22.127+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:52:22.126+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:52:23.019+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:52:23.025+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:52:23.045+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:52:23.045+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:52:23.058+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:52:23.058+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:52:23.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.958 seconds
+[2024-09-17T02:52:53.496+0000] {processor.py:186} INFO - Started process (PID=11460) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:52:53.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:52:53.501+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:52:53.500+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:52:54.403+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:52:54.407+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:52:54.419+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:52:54.418+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:52:54.430+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:52:54.430+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:52:54.447+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.958 seconds
+[2024-09-17T02:53:25.010+0000] {processor.py:186} INFO - Started process (PID=11472) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:53:25.012+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:53:25.016+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:53:25.016+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:53:26.171+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:53:26.176+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:53:26.190+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:53:26.190+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:53:26.205+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:53:26.205+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:53:26.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 1.219 seconds
+[2024-09-17T02:53:56.616+0000] {processor.py:186} INFO - Started process (PID=11483) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:53:56.619+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:53:56.622+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:53:56.621+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:53:57.704+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:53:57.708+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:53:57.720+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:53:57.720+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:53:57.731+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:53:57.731+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:53:57.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 1.133 seconds
+[2024-09-17T02:54:16.823+0000] {processor.py:186} INFO - Started process (PID=11486) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:54:16.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:54:16.827+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:54:16.827+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:54:17.411+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:54:17.415+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:54:17.430+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:54:17.429+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:54:17.438+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:54:17.438+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:54:17.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.635 seconds
+[2024-09-17T02:54:47.982+0000] {processor.py:186} INFO - Started process (PID=11495) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:54:47.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:54:47.988+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:54:47.987+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:54:48.954+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:54:48.959+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:54:48.970+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:54:48.970+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:54:48.981+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:54:48.981+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:54:48.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 1.026 seconds
+[2024-09-17T02:55:19.369+0000] {processor.py:186} INFO - Started process (PID=11510) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:55:19.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:55:19.373+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:55:19.372+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:55:19.890+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:55:19.892+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:55:19.902+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:55:19.901+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:55:19.912+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:55:19.911+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:55:19.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.556 seconds
+[2024-09-17T02:55:50.441+0000] {processor.py:186} INFO - Started process (PID=11519) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:55:50.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:55:50.449+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:55:50.448+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:55:51.126+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:55:51.129+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:55:51.139+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:55:51.138+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:55:51.150+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:55:51.150+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:55:51.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.737 seconds
+[2024-09-17T02:56:21.589+0000] {processor.py:186} INFO - Started process (PID=11528) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:56:21.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:56:21.595+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:56:21.594+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:56:22.282+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:56:22.285+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:56:22.298+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:56:22.298+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:56:22.306+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:56:22.306+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:56:22.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.741 seconds
+[2024-09-17T02:56:52.719+0000] {processor.py:186} INFO - Started process (PID=11537) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:56:52.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:56:52.725+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:56:52.724+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:56:53.390+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:56:53.394+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:56:53.406+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:56:53.406+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:56:53.417+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:56:53.417+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:56:53.432+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.728 seconds
+[2024-09-17T02:57:23.644+0000] {processor.py:186} INFO - Started process (PID=11546) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:57:23.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:57:23.648+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:57:23.648+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:57:24.237+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:57:24.240+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:57:24.251+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:57:24.251+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:57:24.262+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:57:24.262+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:57:24.274+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.638 seconds
+[2024-09-17T02:57:54.665+0000] {processor.py:186} INFO - Started process (PID=11555) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:57:54.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:57:54.670+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:57:54.670+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:57:55.220+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:57:55.223+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:57:55.233+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:57:55.232+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:57:55.243+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:57:55.243+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:57:55.252+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.599 seconds
+[2024-09-17T02:58:25.689+0000] {processor.py:186} INFO - Started process (PID=11564) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:58:25.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:58:25.692+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:58:25.692+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:58:26.394+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:58:26.400+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:58:26.417+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:58:26.416+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:58:26.427+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:58:26.427+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:58:26.440+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.761 seconds
+[2024-09-17T02:58:56.569+0000] {processor.py:186} INFO - Started process (PID=11573) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:58:56.572+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:58:56.575+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:58:56.575+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:58:57.153+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:58:57.156+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:58:57.167+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:58:57.167+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:58:57.183+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:58:57.182+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:58:57.194+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.638 seconds
+[2024-09-17T02:59:27.590+0000] {processor.py:186} INFO - Started process (PID=11582) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:59:27.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:59:27.596+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:59:27.595+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:59:28.317+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:59:28.321+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:59:28.331+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:59:28.330+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:59:28.341+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:59:28.341+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:59:28.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.777 seconds
+[2024-09-17T02:59:58.636+0000] {processor.py:186} INFO - Started process (PID=11591) to work on /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:59:58.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py for tasks to queue
+[2024-09-17T02:59:58.641+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:59:58.640+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:59:59.226+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/snowflake/sqlalchemy/base.py:1068 SAWarning: The GenericFunction 'flatten' is already registered and is going to be overridden.
+[2024-09-17T02:59:59.229+0000] {processor.py:925} INFO - DAG(s) 'snowflake_automation_dag' retrieved from /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py
+[2024-09-17T02:59:59.242+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:59:59.241+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-17T02:59:59.257+0000] {logging_mixin.py:190} INFO - [2024-09-17T02:59:59.256+0000] {dag.py:4156} INFO - Setting next_dagrun for snowflake_automation_dag to None, run_after=None
+[2024-09-17T02:59:59.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_emr_spark_s3_snowflake.py took 0.646 seconds

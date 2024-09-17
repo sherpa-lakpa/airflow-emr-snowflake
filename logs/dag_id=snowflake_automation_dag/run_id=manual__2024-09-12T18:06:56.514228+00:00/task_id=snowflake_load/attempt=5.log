@@ -1,0 +1,34 @@
+[2024-09-12T19:01:00.520+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-12T19:01:00.534+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: snowflake_automation_dag.snowflake_load manual__2024-09-12T18:06:56.514228+00:00 [queued]>
+[2024-09-12T19:01:00.539+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: snowflake_automation_dag.snowflake_load manual__2024-09-12T18:06:56.514228+00:00 [queued]>
+[2024-09-12T19:01:00.540+0000] {taskinstance.py:2865} INFO - Starting attempt 5 of 5
+[2024-09-12T19:01:00.546+0000] {taskinstance.py:2888} INFO - Executing <Task(SnowflakeOperator): snowflake_load> on 2024-09-12 18:06:56.514228+00:00
+[2024-09-12T19:01:00.554+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=2111) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-09-12T19:01:00.556+0000] {standard_task_runner.py:72} INFO - Started process 2113 to run task
+[2024-09-12T19:01:00.557+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'snowflake_automation_dag', 'snowflake_load', 'manual__2024-09-12T18:06:56.514228+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/***_emr_spark_s3_snowflake.py', '--cfg-path', '/tmp/tmpm6bfqsxy']
+[2024-09-12T19:01:00.561+0000] {standard_task_runner.py:105} INFO - Job 37: Subtask snowflake_load
+[2024-09-12T19:01:00.610+0000] {task_command.py:467} INFO - Running <TaskInstance: snowflake_automation_dag.snowflake_load manual__2024-09-12T18:06:56.514228+00:00 [running]> on host 70476fe7f1d5
+[2024-09-12T19:01:00.664+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='snowflake_automation_dag' AIRFLOW_CTX_TASK_ID='snowflake_load' AIRFLOW_CTX_EXECUTION_DATE='2024-09-12T18:06:56.514228+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-12T18:06:56.514228+00:00'
+[2024-09-12T19:01:00.665+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-12T19:01:00.674+0000] {sql.py:266} INFO - Executing: ALTER EXTERNAL TABLE cloud_db.aws_schema.Iris_dataset REFRESH
+[2024-09-12T19:01:00.684+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2024-09-12T19:01:00.693+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2024-09-12T19:01:00.694+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.49-linuxkit-aarch64-with-glibc2.36
+[2024-09-12T19:01:00.695+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2024-09-12T19:01:00.696+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-09-12T19:01:01.610+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2024-09-12T19:01:01.611+0000] {sql.py:509} INFO - Running statement: ALTER EXTERNAL TABLE cloud_db.aws_schema.Iris_dataset REFRESH, parameters: None
+[2024-09-12T19:01:02.218+0000] {cursor.py:1156} INFO - Number of results in first chunk: 0
+[2024-09-12T19:01:02.220+0000] {sql.py:518} INFO - Rows affected: 0
+[2024-09-12T19:01:02.222+0000] {snowflake.py:422} INFO - Rows affected: 0
+[2024-09-12T19:01:02.223+0000] {snowflake.py:423} INFO - Snowflake query id: 01b6fcb5-3202-834d-0005-b63a0002bae2
+[2024-09-12T19:01:03.265+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2024-09-12T19:01:03.268+0000] {connection.py:788} INFO - closed
+[2024-09-12T19:01:03.330+0000] {connection.py:794} INFO - No async queries seem to be running, deleting session
+[2024-09-12T19:01:03.481+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-12T19:01:03.483+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=snowflake_automation_dag, task_id=snowflake_load, run_id=manual__2024-09-12T18:06:56.514228+00:00, execution_date=20240912T180656, start_date=20240912T190100, end_date=20240912T190103
+[2024-09-12T19:01:03.522+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-09-12T19:01:03.536+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-12T19:01:03.537+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

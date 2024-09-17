@@ -1,0 +1,4 @@
+pandas
+apache-airflow-providers-snowflake
+snowflake-connector-python
+snowflake-sqlalchemy

@@ -1,0 +1,32 @@
+[2024-09-12T17:03:01.079+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-12T17:03:01.090+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: snowflake_automation_dag.poll_step_layer manual__2024-09-12T17:02:54.712924+00:00 [queued]>
+[2024-09-12T17:03:01.095+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: snowflake_automation_dag.poll_step_layer manual__2024-09-12T17:02:54.712924+00:00 [queued]>
+[2024-09-12T17:03:01.096+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-09-12T17:03:01.103+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): poll_step_layer> on 2024-09-12 17:02:54.712924+00:00
+[2024-09-12T17:03:01.110+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=430) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-09-12T17:03:01.112+0000] {standard_task_runner.py:72} INFO - Started process 432 to run task
+[2024-09-12T17:03:01.112+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'snowflake_automation_dag', 'poll_step_layer', 'manual__2024-09-12T17:02:54.712924+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/***_emr_spark_s3_snowflake.py', '--cfg-path', '/tmp/tmpp8_cvtv4']
+[2024-09-12T17:03:01.115+0000] {standard_task_runner.py:105} INFO - Job 11: Subtask poll_step_layer
+[2024-09-12T17:03:01.154+0000] {task_command.py:467} INFO - Running <TaskInstance: snowflake_automation_dag.poll_step_layer manual__2024-09-12T17:02:54.712924+00:00 [running]> on host 70476fe7f1d5
+[2024-09-12T17:03:01.220+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='snowflake_automation_dag' AIRFLOW_CTX_TASK_ID='poll_step_layer' AIRFLOW_CTX_EXECUTION_DATE='2024-09-12T17:02:54.712924+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-12T17:02:54.712924+00:00'
+[2024-09-12T17:03:01.222+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-12T17:03:01.230+0000] {logging_mixin.py:190} INFO - The cluster id : j-39Y37RC67PZUK
+[2024-09-12T17:03:01.231+0000] {logging_mixin.py:190} INFO - The emr step id : s-096088428SQETEW557DQ
+[2024-09-12T17:03:01.574+0000] {logging_mixin.py:190} INFO - The step is PENDING
+[2024-09-12T17:03:41.881+0000] {logging_mixin.py:190} INFO - The step is PENDING
+[2024-09-12T17:04:22.221+0000] {logging_mixin.py:190} INFO - The step is CANCELLED
+[2024-09-12T17:05:02.619+0000] {logging_mixin.py:190} INFO - The step is CANCELLED
+[2024-09-12T17:05:43.030+0000] {logging_mixin.py:190} INFO - The step is CANCELLED
+[2024-09-12T17:06:23.403+0000] {logging_mixin.py:190} INFO - The step is CANCELLED
+[2024-09-12T17:07:03.754+0000] {logging_mixin.py:190} INFO - The step is CANCELLED
+[2024-09-12T17:07:44.124+0000] {logging_mixin.py:190} INFO - The step is CANCELLED
+[2024-09-12T17:08:24.451+0000] {logging_mixin.py:190} INFO - The step is CANCELLED
+[2024-09-12T17:08:44.651+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2024-09-12T17:08:44.657+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-09-12T17:08:44.659+0000] {process_utils.py:132} INFO - Sending 15 to group 432. PIDs of all processes in the group: [432]
+[2024-09-12T17:08:44.660+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 432
+[2024-09-12T17:08:44.661+0000] {taskinstance.py:3092} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-09-12T17:08:44.692+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-12T17:08:44.755+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=432, status='terminated', exitcode=0, started='17:03:00') (432) terminated with exit code 0
