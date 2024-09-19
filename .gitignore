@@ -1,1 +1,14 @@
 .DS_Store
+
+# Logs
+logs/
+*.log
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Ignore local environment files
+.env
+
+
