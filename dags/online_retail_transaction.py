@@ -161,7 +161,12 @@ with dag:
 
   snowflake_load=SnowflakeOperator(
 		task_id="snowflake_load",
-		sql="""ALTER EXTERNAL TABLE cloud_db.aws_schema.Iris_dataset REFRESH""" ,
+		sql="""
+      ALTER EXTERNAL TABLE cloud_db.aws_schema.transactions REFRESH;
+      ALTER EXTERNAL TABLE cloud_db.aws_schema.country REFRESH;
+      ALTER EXTERNAL TABLE cloud_db.aws_schema.product REFRESH;
+      ALTER EXTERNAL TABLE cloud_db.aws_schema.time REFRESH;
+    """ ,
 		snowflake_conn_id="snowflake_conn"
 	)
 
