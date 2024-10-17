@@ -3,6 +3,8 @@
 
 ## Overview
 This project demonstrates the integration of Apache Airflow, Amazon EMR, and Snowflake to process and manage data workflows. Airflow orchestrates the workflow, EMR handles big data processing, and Snowflake is used as the data warehouse.
+![Airflow dashboard showing the DAG status.](images/DAG.png)
+
 
 ## Project Structure
 - **config/**: Contains configuration files for Airflow and other services.
@@ -49,9 +51,13 @@ This project demonstrates the integration of Apache Airflow, Amazon EMR, and Sno
 ## File Processing
 1. **Data Ingestion with EMR**  
    The workflow involves ingesting data files using Amazon EMR for processing large datasets.
+   ![Amazon S3 files.](images/s3.jpeg)
+   ![Amazon EMR running a data processing job.](images/EMR.jpeg)
 
 2. **Data Warehousing with Snowflake**  
    After processing, the data is uploaded to Snowflake for storage and querying.
+   ![Snowflake tables](images/snowflake.png)
+   ![Querying processed data in Snowflake.](images/dashboard.jpeg)
 
 ## Logs and Monitoring
 The logs for the Airflow processes can be found in the `logs/` directory. Monitor the logs for debugging and checking workflow statuses.
